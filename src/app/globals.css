@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.background{
+    background: linear-gradient(90deg, #F5BC24 0%, #AF530E 100%);
+}
+
+.hover{
+    background: linear-gradient(180deg, rgba(235, 174, 34, 0.8) -31.62%, #000000 25.03%);
+
+}
+
+.text{
+    color: linear-gradient(104.82deg, #ECAF22 33.41%, #AC4E0D 82.63%);
+}
+.linearGradient{
+    background: linear-gradient(179.99deg, rgba(28, 183, 200, 0.4) 35.28%, rgba(28, 183, 200, 0) 176.11%);
+
+}
+.text {
+  background: linear-gradient(78.74deg, #ECAF22 37.46%, #AC4E0D 87.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hook{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 50%, rgba(45, 207, 183, 0.9) 385.83%);
+
+}
+
+.leftcolor{
+    background: linear-gradient(180deg, rgba(28, 183, 200, 0.5) 35.27%, rgba(28, 183, 200, 0) 87.18%);
+}
