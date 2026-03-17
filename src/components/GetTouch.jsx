@@ -5,8 +5,8 @@ import React from "react";
 export default function ContactUs() {
   return (
     <section id="contact" className="py-10 ">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
-        <div className="  rounded-2xl ">
+      <div id="ContactUs" className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+        <div className="   rounded-2xl ">
             <h1 className="pb-6 text-4xl">
                 Get In Touch
             </h1>

@@ -15,7 +15,7 @@ export default function Images() {
         </div>
 
         <div className="px-6">
-          <img src="/asset/images/bark.png" alt="bark"  className="h-8 md:h-20 object-contain"/>
+          <img src="/asset/images/bark.png" alt="bark"  className="h-8 md:h-15 object-contain"/>
         </div>
 
         <div className="px-6">

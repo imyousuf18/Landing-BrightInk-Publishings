@@ -9,13 +9,13 @@ export default function Navbar() {
 
   return (
     <nav className="w-full hook shadow-md">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6  flex items-center justify-between">
 
         <div>
           <img
             src="/asset/images/logoo.png"
             alt="logo"
-            className="w-20"
+            className="w-25"
           />
         </div>
 

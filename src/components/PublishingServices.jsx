@@ -35,7 +35,7 @@ export default function PublishingServices() {
   ];
 
   return (
-    <section  className="py-10 md:py-20 bg-gray-100">
+    <section id="services"  className="py-10 md:py-20 bg-gray-100">
       <div className="text-center mb-16">
         <h2 className="text-2xl md:text-4xl font-bold text-yellow-600">
           Professional Publishing Services

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer
       className="relative bg-cover bg-center bg-no-repeat text-white pt-16 pb-6 "
-      style={{ backgroundImage: "url('/asset/images/footer.png')" }} // apni image path yahan lagayein
+      style={{ backgroundImage: "url('/asset/images/footer.png')" }} 
     >
       <div className="absolute inset-0 bg-black/10"></div>
 
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4  border-white pl-3">
+            <h3 className="text-lg font-semibold mb-4 border-l-4 border-white pl-3">
               Useful Links
             </h3>
             <ul className="space-y-2 text-sm text-gray-200">

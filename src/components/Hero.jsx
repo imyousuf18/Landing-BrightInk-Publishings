@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="relative   max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-15  items-center">
         <div className="text-white space-y-6">
           <div className="flex items-center gap-6">
-            <h1 className="text-3xl DomaineDispNar-Black text md:text-5xl font-bold leading-tight">
+            <h1 className="text-2xl DomaineDispNar-Black text md:text-5xl font-bold leading-tight">
               Unlock Powerful Ideas That Will Change The Way You Think.
             </h1>
 
@@ -49,13 +49,14 @@ export default function Hero() {
           </div>
 
           <div className="flex gap-4">
-            <button className="background text-white px-6 py-3 rounded-full font-semibold">
-              Call Now
-            </button>
+           <a href="#form" className="background text-white px-6 py-3 rounded-full font-semibold">
+    Call Now
+  </a>
 
-            <button className="background px-6 py-3 rounded-full font-semibold">
-              Get In Touch
-            </button>
+            
+  <a href="#ContactUs" className="background px-6 py-3 rounded-full font-semibold">
+    Get In Touch
+  </a>
           </div>
         </div>
         <div className="bg-black/70 backdrop-blur-md border border-yellow-500 p-8 rounded-2xl shadow-[0_0_40px_rgba(255,200,0,0.6)] ">
@@ -63,7 +64,7 @@ export default function Hero() {
             Start Your Bright Ink Publishing Journey
           </h2>
 
-          <form className="space-y-4">
+          <form id="form" className="space-y-4">
             <input
               type="text"
               placeholder="Full Name"
