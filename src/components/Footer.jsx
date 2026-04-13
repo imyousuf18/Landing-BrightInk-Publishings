@@ -91,10 +91,10 @@ const Footer = () => {
               <li className="flex items-start">
                 <span className="mr-2">🔗</span>
                 <a
-                  href="mailto:support@publishmybook.com"
+                  href="mailto:info@brightinkpublishings.com"
                   className="hover:text-white transition-colors break-all"
                 >
-                  support@publishmybook.com
+                  info@brightinkpublishings.com
                 </a>
               </li>
               <li className="flex items-start">

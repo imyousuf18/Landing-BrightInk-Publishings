@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import GetTouch from '@/components/GetTouch'
 import Hero from '@/components/Hero'
 import Images from '@/components/Images'
+import LiveChatScript from '@/components/LiveChatScript '
 import Navbar from '@/components/Navbar'
 import Patneer from '@/components/Patneer'
 import PublishingServices from '@/components/PublishingServices'
@@ -11,7 +12,7 @@ import Services from '@/components/Services'
 import Subscribe from '@/components/Subscribe'
 import React from 'react'
 
-export default function page() {
+export default function Page() {
   return (
     <div>
       <Navbar />
@@ -25,6 +26,7 @@ export default function page() {
       <GetTouch />
       <Subscribe />
       <Footer />
+      <LiveChatScript />   {/* adds the chat widget */}
     </div>
   )
 }
