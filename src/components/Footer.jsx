@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer
       className="relative bg-cover bg-center bg-no-repeat text-white pt-16 pb-6 "
-      style={{ backgroundImage: "url('/asset/images/footer.png')" }} 
+      style={{ backgroundImage: "url('/asset/images/footer.png')" }}
     >
       <div className="absolute inset-0 bg-black/10"></div>
 
@@ -14,17 +14,17 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="relative">
               <img
-                src="/asset/images/footerimage.png" 
+                src="/asset/images/footerimage.png"
                 alt="Bright Ink Logo"
                 className="object-contain "
               />
             </div>
 
             <p className="text-xs text-gray-300 leading-relaxed max-w-xs">
-              We Are An Independent Publishing Services Provider And Are Not
-              Affiliated, Associated, Authorized, Endorsed By, Or In Any Way
-              Officially Connected With Amazon, Kindle Direct Publishing (KDP),
-              Barnes & Noble Press, Or Any Of Their Subsidiaries Or Affiliates.
+              We Are an Independent Publishing Services Provider and are not
+              affiliated, associated, authorized, endorsed by, or in any way
+              officially connected with Amazon, Kindle Direct Publishing (KDP),
+              Barnes & Noble Press, or any of their subsidiaries or affiliates.
             </p>
           </div>
 
@@ -85,8 +85,8 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3 text-sm text-gray-200">
               <li className="flex items-start">
-                <span className="mr-2">📧</span>
-                <span>Mon-Fri: 9AM–6PM EST</span>
+                <span className="mr-2">🕒</span>
+                <span>Mon-Fri: 9 AM–6 PM EST</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">🔗</span>
@@ -111,7 +111,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 pt-6 text-center text-sm text-gray-300">
-          Copyright © 2026 Bright ink publishings All Rights Reserved.
+          Copyright © 2026 Bright Ink Publishings. All Rights Reserved.
         </div>
       </div>
     </footer>
