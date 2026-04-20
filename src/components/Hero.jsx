@@ -61,7 +61,7 @@ export default function Hero() {
         </div>
         <div className="bg-black/70 backdrop-blur-md border border-yellow-500 p-8 rounded-2xl shadow-[0_0_40px_rgba(255,200,0,0.6)] ">
           <h2 className="text-white text-xl font-semibold mb-6">
-            Start Your Bright Ink Publishing Journey
+            Start Your BrightInk Publishing Journey
           </h2>
 
           <form id="form" className="space-y-4">
