@@ -47,7 +47,7 @@ export default function Navbar() {
         </div>
 
         <div className="md:hidden text-white">
-          <button onClick={() => setMenuOpen(!menuOpen)}>
+          <button onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu" aria-expanded={menuOpen}>
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -77,15 +77,15 @@ export default function Navbar() {
             Home
           </Link>
 
-          <Link href="/about" className="block">
+          <Link href="#about" className="block">
             About Us
           </Link>
 
-          <Link href="/services" className="block">
+          <Link href="#services" className="block">
             Services
           </Link>
 
-          <Link href="/contact" className="block">
+          <Link href="#contact" className="block">
             Contact Us
           </Link>
 
