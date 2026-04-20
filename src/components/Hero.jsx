@@ -49,12 +49,12 @@ export default function Hero() {
           </div>
 
           <div className="flex gap-4">
-           <a href="#form" className="background text-white px-6 py-3 rounded-full font-semibold">
+           <a href="tel:+14067977989" className="background text-white px-6 py-3 rounded-full font-semibold">
     Call Now
   </a>
 
             
-  <a href="#ContactUs" className="background px-6 py-3 rounded-full font-semibold">
+  <a href="mailto:info@brightinkpublishings.com" className="background text-white px-6 py-3 rounded-full font-semibold">
     Get In Touch
   </a>
           </div>

@@ -98,13 +98,13 @@ export default function Services() {
         </div>
       </div>
        <div className="flex justify-center items-center gap-4">
-            <button className="background text-white px-6 py-3 rounded-full font-semibold">
+            <a href="tel:+14067977989" className="background text-white px-6 py-3 rounded-full font-semibold">
               Call Now
-            </button>
+            </a>
 
-            <button className="background text-white px-6 py-3 rounded-full font-semibold">
+            <a href="mailto:info@brightinkpublishings.com" className="background text-white px-6 py-3 rounded-full font-semibold">
               Get In Touch
-            </button>
+            </a>
           </div>
     </section>
   );

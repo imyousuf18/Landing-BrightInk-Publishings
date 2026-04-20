@@ -40,9 +40,9 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:block">
-          <button className="background text-white px-5 py-2 rounded-full  transition">
+          <Link href="tel:+14067977989" className="background text-white px-5 py-2 rounded-full inline-block transition text-center">
             Get A Quote
-          </button>
+          </Link>
         </div>
 
         <div className="md:hidden text-white">
@@ -88,9 +88,9 @@ export default function Navbar() {
             Contact Us
           </Link>
 
-          <button className="w-full bg-[#F2BE4B] text-white py-2 rounded-lg">
+          <Link href="tel:+14067977989" className="w-full bg-[#F2BE4B] text-white py-2 rounded-lg block text-center">
             Get a Quote
-          </button>
+          </Link>
 
         </div>
 
