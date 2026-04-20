@@ -49,19 +49,19 @@ export default function Hero() {
           </div>
 
           <div className="flex gap-4">
-           <a href="#form" className="background text-white px-6 py-3 rounded-full font-semibold">
+           <a href="tel:+14067977989" className="background text-white px-6 py-3 rounded-full font-semibold">
     Call Now
   </a>
 
             
-  <a href="#ContactUs" className="background px-6 py-3 rounded-full font-semibold">
+  <a href="mailto:info@brightinkpublishings.com" className="background text-white px-6 py-3 rounded-full font-semibold">
     Get In Touch
   </a>
           </div>
         </div>
         <div className="bg-black/70 backdrop-blur-md border border-yellow-500 p-8 rounded-2xl shadow-[0_0_40px_rgba(255,200,0,0.6)] ">
           <h2 className="text-white text-xl font-semibold mb-6">
-            Start Your Bright Ink Publishing Journey
+            Start Your BrightInk Publishing Journey
           </h2>
 
           <form id="form" className="space-y-4">

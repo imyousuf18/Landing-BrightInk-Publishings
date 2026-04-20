@@ -34,22 +34,22 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2 text-sm text-gray-200">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/" className="hover:text-white transition-colors">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#about" className="hover:text-white transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#services" className="hover:text-white transition-colors">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="#contact" className="hover:text-white transition-colors">
                   Contact Us
                 </a>
               </li>
@@ -100,10 +100,10 @@ const Footer = () => {
               <li className="flex items-start">
                 <span className="mr-2">📞</span>
                 <a
-                  href="tel:+14155201842"
+                  href="tel:+14067977989"
                   className="hover:text-white transition-colors"
                 >
-                  +1 (415) 520-1842
+                  (406) 797-7989
                 </a>
               </li>
             </ul>

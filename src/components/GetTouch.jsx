@@ -28,14 +28,14 @@ export default function ContactUs() {
 
               <div className="grid md:grid-cols-2 gap-4">
               <input
-                type="text"
-                placeholder="First Name"
+                type="email"
+                placeholder="Email Address"
                 className="w-full border border-gray-300 rounded-lg bg-black text-white  px-4 py-3 outline-none focus:border-yellow-500"
               />
 
               <input
-                type="text"
-                placeholder="Last Name"
+                type="tel"
+                placeholder="Contact Number"
                 className="w-full border border-gray-300 bg-black text-white  rounded-lg px-4 py-3 outline-none focus:border-yellow-500"
               />
             </div>
